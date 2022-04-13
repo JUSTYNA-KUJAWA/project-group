@@ -1,0 +1,154 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  background-color: $productBox-root-bg;
+  border: 1px solid $productBox-root-border;
+  margin-bottom: 2rem;
+  position: relative;
+
+  .photo {
+    position: relative;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0;
+    background: {
+      color: $productBox-photo-bg;
+      size: contain;
+      position: center;
+      repeat: no-repeat;
+    }
+    overflow: hidden;
+    align-items: flex-end;
+    width: auto;
+    max-width: 260px;
+
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+    .sale {
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $productBox-sale-bg;
+      border-radius: 50%;
+      color: $productBox-sale-text;
+      padding: 30px 15px 5px 15px;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 40px;
+      width: 100%;
+      padding: 2px 6px;
+      opacity: 0;
+    }
+  }
+
+  .content {
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+
+    h5 {
+      color: $productBox-header;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 1px;
+    }
+  }
+
+  .line {
+    margin: 0 10px;
+    border-bottom: 1px solid $productBox-border;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      left: 50%;
+      width: 30px;
+      border-bottom: 4px solid $productSearch-border;
+      transform: translateX(-50%);
+    }
+  }
+
+  .actions {
+    padding: 15px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .favorites {
+    background-color: $productBox-border-before;
+  }
+
+  .active {
+    background-color: $productBox-compare-active;
+  }
+
+  .priceWraper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .oldPrice {
+    color: rgb(194, 189, 189);
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 5px 10px;
+  }
+
+
+  .price {
+    background-color: $productBox-price-bg;
+    color: $productBox-price-text;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 5px 10px;
+    font-weight: 400;
+  }
+
+  &:hover {
+
+    .buttons {
+      opacity: 1;
+    }
+
+    .price {
+      background-color: $productBox-price-hover-bg;
+    }
+  }
+
+
+  .favoriteActive {
+    color: $black;
+
+    .isCompare {
+      color: $orange;
+    }
+    .isFavorite {
+      color: $white;
+  }
+
+  .compareActive {
+    color: $productBox-compare-active;
+  }
+  
+    
+  }
+}
+
+

@@ -1,0 +1,238 @@
+/*Color list*/
+
+$clear-sand: #dda255;
+
+
+
+$base-padding: 24px;
+
+//COLOR DEFINITION - DON'T USE IN PROJECT
+
+$orange: #d58e32;
+$black: #2a2a2a; //use it too as #292929 and rgb(42, 42, 42)
+$white: #ffffff;
+$blue: #3297FD;
+$green: #7aae30;
+
+
+$grayLight: #b6b6b6;
+$grayMedium: #434343;
+$grayDark: #363636;
+$roseLight:#FFEEEE;
+
+//name from RBG table number
+$gray225: #e1e1e1; // use it too as #e2e2e2 and rgb(216, 216, 216);
+$gray244: #f4f5f7;
+$gray224: rgb(224, 227, 237);
+$gray169: rgb(169, 169, 169);
+$darkGray: #2a2a2a;
+$nobel: #b6b6b6;
+$gray240: rgb(240, 240, 240);
+
+//ELEMENTS COLOR
+
+$button-bg: $black;
+$button-text: $white;
+$button-text-border-hover: $white;
+$button-text-hover-bg: $orange;
+$button-outline-text: $black;
+$button-outline-border: $black;
+$button-outline-hover-text: $black;
+$button-outline-hover: $white;
+$button-backgound-big: $white;
+$button-color-big: $darkGray;
+$featureBox-border: $grayLight;
+$featureBox-bg: $white;
+$featureBox-text: $black;
+$featureBox-bg: $white;
+$fenitureBox-active-bg: $orange;
+$featureBox-active-border: $orange;
+$featureBox-active-content: $orange;
+
+$productBox-root-bg: $white;
+$productBox-root-border: $gray225;
+$productBox-photo-bg: $gray244;
+$productBox-sale-bg: $black;
+$productBox-sale-text: $white;
+$productBox-header: $orange;
+$productBox-stars-text: $black;
+$productBox-stars-select: $orange;
+$productBox-border: $black;
+$productBox-border-before: $orange;
+$productBox-price-text: $white;
+$productBox-price-bg: $black;
+$productBox-price-hover-bg: $orange;
+$productBox-favourite-active: $orange;
+$productBox-favourite-active: $orange;
+$productBox-price-text: $white;
+$productBox-price-bg: $black;
+$productBox-price-hover-bg: $orange;
+$productBox-compare-active: $orange;
+
+$newFeniture-border: $gray225;
+$newFeniture-header-text: $orange;
+$newFeniture-header-border: $orange;
+$newFeniture-text: $black;
+$newFeniture-menu-bg: $white;
+$newFeniture-link-bg: $gray225;
+$newFeniture-hover-border: $orange;
+$newFeniture-hover-bg: $orange;
+$newFeniture-navbar-bg: $white;
+
+$productSearch-border: $black;
+$productSearch-text: $black;
+$productSearch-icon: $orange;
+$productSearch-placeholder: $black;
+$productSearch-background: $white;
+$productSearch-hover-background: $blue;
+$productSearch-hover-text: $white;
+
+$companyClaim-bg: $grayDark;
+$companyClaim-phone-text: $gray225;
+$companyClaim-icon: $orange;
+$companyClaim-cartBox-text: $white;
+$companyClaim-cartIcon-bg: $orange;
+$companyClaim-cartCounter-bg: $grayDark;
+$companyClaim-cartCounter-text: $gray224;
+$companyClaim-cartCounter-hover-bg: $orange;
+
+$footer-bg: $grayDark;
+$footer-head-text: $white;
+$footer-link-text: $gray169;
+$footer-link-text-hover: $white;
+$footer-claim-bg: $black;
+$footer-claim-text: $gray169;
+$footer-media-text: $gray169;
+$footer-media-text-hover: $orange;
+
+$menu-bg: $white;
+$menu-link-text: $black;
+$menu-link-border: $white;
+$menu-link-hover-bg: $orange;
+$menu-link-hover-text: $white;
+$menu-link-hover-border: $orange;
+$menu-link-active-border: $black;
+
+$topBar-bg: $grayMedium;
+$topBar-link: $white;
+$topBar-link-hover: $orange;
+
+
+$compareBar-bg: $grayMedium;
+$compareBox-icon: $white;
+$compareBox-hover-bg: $black;
+$swipeable-icon: $grayMedium;
+$swipeable-hover: $orange;
+$brandsBar-border: $gray224;
+
+$brandBox-border: $gray224;
+
+
+$PostBox-img-bg: $grayLight;
+$PostBox-info-bg: $white;
+$PostBox-active: $orange;
+
+$furnitureGallery-header-border: $orange;
+$furnitureGallery-header-text: $orange;
+$furnitureGallery-border: $gray225;
+$furnitureGallery-menu-border: $gray225;
+$furnitureGallery-text: $black;
+$furnitureGallery-hover-border: $orange;
+$furnitureGallery-menu-activ-bg: $gray244;
+$furnitureGallery-menu-active-txt: $orange;
+$furnitureGallery-button-bg: $white;
+$furnitureGallery-tooltip-txt: $white;
+$furnitureGallery-tooltip-bg: $black;
+$furnitureGallery-content-bg: $white;
+$furnitureGallery-content-shadow: $grayMedium;
+$furnitureGallery-content-triangle: $black;
+$furnitureGallery-stars-text: $black;
+$furnitureGallery-price-bg: $grayDark;
+$furnitureGallery-price-txt: $white;
+$furnitureGallery-oldPrice-txt: $gray224;
+$furnitureGallery-rightImage-price: $green;
+$furnitureGallery-rightImage-name: $orange;
+$furnitureGallery-slider-overlay: $black;
+
+$feedback-border: $gray225;
+$feedback-header-text: $orange;
+$feedback-header-border: $orange;
+$feedback-menu-bg: $white;
+$feedback-link-bg: $gray225;
+$feedback-hover-bg: $orange;
+$feedback-text: $grayMedium;
+
+$productPopup-overlay: $black;
+$productPopup-bg: $white;
+$productPopup-border: $gray225;
+$productPopup-hover: $orange;
+$productPopup-header-text: $orange;
+$productPopup-header-border: $orange;
+$productPopup-sale-bg: $black;
+$productPopup-myRate: $orange;
+
+
+/* Promotion Product*/
+$topper-background: $darkGray;
+$hotDeals-font-color: $white;
+$timer-font-color: $white;
+$timer-backgorund: $darkGray;
+$old-price-color: $nobel;
+$old-price-text-decoration: $darkGray;
+$hover-price-color: $clear-sand;
+
+$button-long-background: $darkGray;
+$shadow-title-color: $white;
+$shadow-subtitle-color: $white;
+
+
+
+$promotion-imgLeft-after: $grayLight;
+$promotion-wraperLeft-text: $white;
+$promotion-last-child-border: $white;
+$promotion-wrapper-right-p: $grayDark;
+$promotion-last-child-right-text: $orange;
+$promotion-wrapper-right-down-p: $orange;
+$promotion-wrapper-right-down-lastchild: $grayDark;
+$promotion-container-up-bg: $gray240;
+$promotion-container-down-bg: $roseLight;
+
+$cart-name-background: $gray240;
+$cart-cartBody-border: $gray225;
+$cart-bodyHeader: $gray240;
+$cart-bodyHeader-border: $gray225;
+$cart-input-border: $gray225;
+$cart-totalBody-border: $gray225;
+$cart-totalHead-background: $gray240;
+$cart-totalHead-border: $gray225;
+$cart-cartTotal-span-border: $gray225;
+$cart-cartTotal-span-color: $orange;
+
+$cartBox-border: $gray225;
+$cartBox-icon-border: $gray225;
+$cartBox-icon-color: $gray225;
+$cartBox-icon-hover-color: $white;
+$cartBox-icon-hover-background: $orange;
+$cartBox-icon-hover-border: $orange;
+$cartBox-prices: $orange;
+$cartBox-input-border: $gray225;
+$cartBox-input-background: $white;
+$cartBox-input-hover-background: $orange;
+$cartBox-input-hover-color: $white;
+
+/*General variables*/
+
+$primary: $clear-sand;
+// animations
+
+$bg-transition: 0.25s;
+$text-transition: 0.25s;
+$opacity-transition: 0.25s;
+
+%animation {
+  transition-property: background-color, color, opacity;
+  transition-duration: $bg-transition, $text-transition, $opacity-transition;
+  transition-timing-function: ease-out;
+  &:hover {
+  }
+}

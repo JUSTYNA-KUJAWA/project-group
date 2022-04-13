@@ -1,0 +1,50 @@
+@import "../../../styles/settings.scss";
+
+.root {
+  background-color: $topBar-bg;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      line-height: 55px;
+
+      a {
+        @extend %animation;
+        color: $topBar-link;
+        font-size: 13px;
+
+        &:hover {
+          color: $topBar-link-hover;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .topOptions ul li {
+    margin-right: 1.5rem;
+
+    .icon {
+      margin-left: 5px;
+    }
+  }
+
+  .topMenu ul li {
+    margin-left: 1.5rem;
+
+    .icon {
+      margin-right: 5px;
+      color: $white;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .topMenu a span {
+    display: none;
+  }
+}
